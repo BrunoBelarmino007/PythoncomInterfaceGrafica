@@ -1,7 +1,7 @@
 class Funcionario:
     def __init__(self, nome, email):
         self.nome = nome
-        self.email = email
+        self.email = email  
         self.horas = {}
         self.salario_hora = {}
 
@@ -14,7 +14,7 @@ class Funcionario:
             self.salario_hora[mes] = valor
 
     def calcularSalario(self, mes):
-        if (mes in self.horas) or (mes in self.salario_hora):
+        if (mes not in self.horas) or (mes not in self.salario_hora):
             print("Mês inexistente")
         else:
             return self.horas[mes] * self.salario_hora[mes]
