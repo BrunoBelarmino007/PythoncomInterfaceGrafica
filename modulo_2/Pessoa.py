@@ -1,23 +1,19 @@
 class Pessoa:
+    "Isto é uma classe chamada Pessoa"
 
-    "Isto é uma classe nova chamada Pessoa"
-
-    idade = 15  
+    def __init__(self, nome, idade):  
+        self.nome = nome
+        self.idade = idade  
 
     def saudacao(self):
-        print("Olá, tudo bem?")
+        print(f"Olá {self.nome}, tudo bem? Você tem {self.idade} anos👀.")
 
-# criando um novo objeto para a classe Pessoa
 
-matheus = Pessoa()
+nome_usuario = input("Informe o seu nome: ")
+idade_usuario = int(input("Informe a sua idade: "))
 
-# Outup(Saída) : 15
-print(Pessoa.idade)  # Acessando o atributo idade da classe Pessoa
-# print(matheus.idade)  # Acessando o atributo idade do objeto matheus
+# Criando o objeto com os dados fornecidos
+pessoa1 = Pessoa(nome_usuario, idade_usuario)
 
-# Outup : <function Pessoa.saudacao>
-print(Pessoa.saudacao)  # Acessando o método saudacao da classe Pessoa
-print(matheus.saudacao)  # Acessando o método saudacao do objeto matheus
-
-# # Outup : "Isto é uma classe nova chamada Pessoa"
-# print(Pessoa._doc_)  # Acessando a documentação da classe Pessoa
+# Chamando o método
+pessoa1.saudacao()
