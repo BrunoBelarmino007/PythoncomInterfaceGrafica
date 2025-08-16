@@ -32,10 +32,10 @@ class ControleRemoto:
         self.tv = tv    
 
     def aumentaVolume(self, valor):
-        self.tv.aumentaVolume(90)
+        self.tv.aumentaVolume(valor)
 
     def diminuiVolume(self, valor):
-        self.tv.diminuiVolume(90)
+        self.tv.diminuiVolume(valor)
 
     def trocaCanal(self, canal):
         self.tv.trocaCanal(canal)
