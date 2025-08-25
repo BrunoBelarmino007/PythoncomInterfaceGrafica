@@ -225,3 +225,9 @@ Este repositório é para fins educacionais e faz parte de uma trilha de aprendi
 Ofereça sua vida a Deus como um sacrifício vivo, santo e agradável, e permita que Ele transforme seu modo de pensar. Assim, você viverá para cumprir a boa, perfeita e agradável vontade do Senhor - Romanos 12:1 e 2.
 
 ---
+
+## 📌 Trilha de Aprendizado em Python
+
+| ◀️ Anterior | Atual 📍 | Próximo ▶️ |
+|-------------|----------|-------------|
+| [PythoncomPOO](https://github.com/BrunoBelarmino007/PythoncomPOO.git) | **Python com Interface Gráfica** | [PythonProjeto](https://github.com/BrunoBelarmino007/PythonProjeto.git) |
