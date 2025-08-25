@@ -11,7 +11,7 @@ Este é o **4º curso** da trilha de conhecimento em **Linguagem de Programaçã
 - **2º Curso**: Linguagem de Programação Python - Básico → [Repositório Python](https://github.com/BrunoBelarmino007/Python.git)
 - **3º Curso**: Desenvolvimento Orientado a Objeto Utilizando a Linguagem Python → [Repositório PythoncomPOO](https://github.com/BrunoBelarmino007/PythoncomPOO.git)
 - **4º Curso**: **Criando um Projeto com Interface Gráfica Utilizando a Linguagem Python (Este repositório)** ⭐
-- **5º Curso**: Desenvolvendo um Projeto Completo Python com Estruturas de Dados 
+- **5º Curso**: Desenvolvendo um Projeto Completo Python com Estruturas de Dados → [Repositório PythonProjeto](https://github.com/BrunoBelarmino007/PythonProjeto.git) 
 
 ## 🎯 Conteúdo Estudado
 
